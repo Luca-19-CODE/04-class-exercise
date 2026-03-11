@@ -3,7 +3,7 @@ body {
     font-family: Arial,Helvetica,sans-serif;
 }
 
-.navbar{
+/* .navbar{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -13,18 +13,21 @@ body {
     background-color: red;
     border:1px solid white;
 
-}
+} */
 
 .navlinks{
     display:flex;
     flex-direction: row;
-    gap: 20px;
+    /* gap: 20px; */
 }
 
 .navlinks a{
+    display: flex;
+    flex-direction: row;
     text-decoration: none;
     color:black;
     font-weight: 400;
+    justify-content: space-between;
 }
 
 .hero{
